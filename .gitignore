@@ -36,10 +36,11 @@ env/
 .env
 *.env
 
-# Uploads
-uploads/
-*.jpg
-*.png
+# Uploads (user generated content)
+project/backend/uploads/
+
+# Static assets (keep these)
+!project/static/
 
 # OS
 .DS_Store
